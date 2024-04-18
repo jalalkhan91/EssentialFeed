@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DCD8C7A2BD123B9008A84F8 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD8C792BD123B9008A84F8 /* RemoteFeedLoaderTests.swift */; };
 		4DFC49432BD0574C00041A15 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFC493A2BD0574C00041A15 /* EssentialFeed.framework */; };
 		4DFC49482BD0574C00041A15 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC49472BD0574C00041A15 /* EssentialFeedTests.swift */; };
 		4DFC49492BD0574C00041A15 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFC493D2BD0574C00041A15 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DCD8C792BD123B9008A84F8 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		4DFC493A2BD0574C00041A15 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFC493D2BD0574C00041A15 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		4DFC49422BD0574C00041A15 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				4DFC49472BD0574C00041A15 /* EssentialFeedTests.swift */,
+				4DCD8C792BD123B9008A84F8 /* RemoteFeedLoaderTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCD8C7A2BD123B9008A84F8 /* RemoteFeedLoaderTests.swift in Sources */,
 				4DFC49482BD0574C00041A15 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
