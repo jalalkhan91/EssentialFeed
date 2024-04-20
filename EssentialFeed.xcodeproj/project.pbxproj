@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DAA8A5F2BD4601A002BFCDA /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA8A5E2BD4601A002BFCDA /* HTTPClient.swift */; };
 		4DCD8C7A2BD123B9008A84F8 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD8C792BD123B9008A84F8 /* RemoteFeedLoaderTests.swift */; };
 		4DCD8C7D2BD17159008A84F8 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD8C7C2BD17159008A84F8 /* RemoteFeedLoader.swift */; };
 		4DFC49432BD0574C00041A15 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFC493A2BD0574C00041A15 /* EssentialFeed.framework */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DAA8A5E2BD4601A002BFCDA /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		4DCD8C792BD123B9008A84F8 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		4DCD8C7C2BD17159008A84F8 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		4DFC493A2BD0574C00041A15 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				4DCD8C7C2BD17159008A84F8 /* RemoteFeedLoader.swift */,
+				4DAA8A5E2BD4601A002BFCDA /* HTTPClient.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				4DFC49552BD0596800041A15 /* FeedLoader.swift in Sources */,
 				4DCD8C7D2BD17159008A84F8 /* RemoteFeedLoader.swift in Sources */,
+				4DAA8A5F2BD4601A002BFCDA /* HTTPClient.swift in Sources */,
 				4DFC49532BD0580C00041A15 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
